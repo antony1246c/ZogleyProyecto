@@ -1,0 +1,198 @@
+/* GRID DE TARJETAS */
+.paneles-admin {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    padding: 20px 40px;
+}
+
+/* TARJETAS DE ESTADÍSTICAS */
+.tarjeta-estadistica {
+    background: #fff;
+    padding: 20px;
+    border-radius: 14px;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.08);
+    transition: 0.25s ease;
+    position: relative;
+    cursor: pointer;
+}
+
+.tarjeta-estadistica:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 8px 18px rgba(0,0,0,0.15);
+
+}
+
+/* ENCABEZADO */
+.encabezado-estadistica h3 {
+    font-size: 16px;
+    font-family: "Maison Neue";
+    color: #333;
+}
+
+.icono-estadistica {
+    font-size: 24px;
+    opacity: 0.7;
+}
+
+/* NÚMEROS */
+.contenido-estadistica {
+    margin-top: 8px;
+    display: flex;
+    align-items: baseline;
+    gap: 8px;
+}
+
+.numero-estadistica {
+    font-size: 28px;
+    font-weight: 800;
+    color: #b8725e;
+}
+
+.cambio-estadistica {
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.cambio-estadistica.aumento { color: #0bb25b; }
+.cambio-estadistica.disminucion { color: #d9534f; }
+
+/* MINI GRAFICA */
+.mini-grafica {
+    margin-top: 10px;
+    text-align: center;
+}
+
+.mini-grafica img {
+    width: 30px;
+    opacity: 0.9;
+    filter: brightness(0) saturate(100%) invert(70%) sepia(12%) saturate(1500%) hue-rotate(-13deg) brightness(90%) contrast(95%);
+}
+
+/* SECCIÓN DE LA TABLA SQL */
+.contenedor-tabla-admin {
+    width: 90%;
+    margin: 30px auto;
+    background: #f1f1f1;
+    border-radius: 16px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+    padding: 20px 25px;
+    min-height: 350px;
+}
+
+/* ENCABEZADO DE TABLA */
+.encabezado-tabla {
+    display: flex;
+    justify-content: flex-start;
+    margin-bottom: 20px;
+}
+
+.encabezado-tabla select {
+    padding: 18px;
+    font-size: 14px;
+    border-radius: 16px;
+    background: #f1f1f1;
+    border: none;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+    cursor: pointer;
+    font-family: "Maison Neue", sans-serif;
+    outline: none;
+    transition: transform 0.2s ease;
+}
+
+.encabezado-tabla select:hover {
+    transform: scale(1.05);
+}
+ 
+
+/* CONTENIDO DE TABLAS */
+.contenido-tabla {
+    background: #ffffff;
+    border-radius: 16px;
+    padding: 20px;
+    min-height: 250px;
+    border: 1px solid #ececec;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+.texto-placeholder {
+    color: #777;
+    font-style: italic;
+    text-align: center;
+    margin-top: 80px;
+}
+
+
+
+/* TABLAS QUE SE GENERAN */
+/* Contenedor de la tabla */
+.contenido-tabla {
+    background: #fff;
+    border-radius: 12px;
+    padding: 15px;
+    margin-bottom: 20px;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.08);
+}
+
+/* Tabla */
+.contenido-tabla table {
+    width: 100%;
+    border-collapse: collapse;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Encabezados */
+.contenido-tabla th {
+    background-color: #e9a961;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    border-radius: 4px 4px 0 0;
+}
+
+/* Celdas */
+.contenido-tabla td {
+    padding: 10px;
+    text-align: center;
+    border-bottom: 1px solid #eee;
+}
+
+/* Filas alternas */
+.contenido-tabla tbody tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+/* Hover filas */
+.contenido-tabla tbody tr:hover {
+    background-color: #e6f0ff;
+}
+
+/* Caption de la tabla */
+.contenido-tabla caption {
+    font-weight: bold;
+    font-size: 1.2em;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+/* Scroll horizontal si la tabla es muy ancha */
+#contenido-tablas {
+    overflow-x: auto;
+}
+
+.imagen-producto1 {
+  width: 100px;          /* Ancho del contenedor */
+  height: 100px;         /* Alto del contenedor */
+  background-size: cover;  /* Ajusta la imagen para cubrir todo el div */
+  background-position: center; /* Centra la imagen */
+  background-repeat: no-repeat; /* Evita que la imagen se repita */
+}
+
+/* Acciones del panel administrativo */
+.admin-editar-producto, .admin-eliminar-producto, .admin-guardar-venta, #btnCerrarSesion {
+    border: 0; border-radius: 4px; padding: 8px 12px; margin: 3px;
+    cursor: pointer; font: inherit;
+}
+.admin-editar-producto, .admin-guardar-venta { background: #b8725e; color: #fff; }
+.admin-eliminar-producto { background: #8f2424; color: #fff; }
+.admin-estado-venta { padding: 7px; border: 1px solid #ccc; border-radius: 4px; }

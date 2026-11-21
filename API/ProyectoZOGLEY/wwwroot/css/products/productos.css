@@ -1,0 +1,70 @@
+/* =========================
+   1. LISTA DE PRODUCTOS
+   ========================= */
+div.tendencias {
+  display: flex;
+  flex-direction: row;
+}
+
+.producto {
+  margin: 0 20px 20px;
+  display: flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 280px;
+  transition: transform 0.5s ease, box-shadow 0.5s ease;
+}
+
+.producto:hover {
+  cursor: pointer;
+  transform: scale(1.05);
+}
+
+.producto:hover .imagen-producto {
+  box-shadow: 0 4px 8px rgba(184, 114, 94, 0.5);
+}
+
+.imagen-producto {
+  display: flex;
+  width: 100%;
+  height: 350px;
+  justify-content: end;
+  align-items: end;
+  background-size:cover;
+  background-position: center;
+}
+
+
+
+/* =========================
+   2. DETALLES DEL PRODUCTO
+   ========================= */
+div.detalles-producto {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.nombre-producto {
+  text-align: left;
+}
+
+.precio-producto {
+  margin: 10px 10px 0 0;
+  text-align: right;
+}
+
+button.btn-agregar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 40px;
+  padding: 0;
+}

@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Editar Perfil - Zogley</title>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/index/reset.css">
+    <link rel="stylesheet" href="css/index/tipografia.css">
+    <link rel="stylesheet" href="css/perfil/editarPerfil.css">
+</head>
+
+<body>
+    <main class="perfil-container">
+        <a href="index.html" class="volver-inicio" style="color: black;">← Volver al inicio</a>
+        <!-- Encabezado del perfil -->
+        <div class="perfil-header">
+            <div class="avatar">
+                <svg class="icono-avatar" aria-hidden="true">
+                    <use href="Recursos/Iconos/iconos.svg#icon-user"></use>
+                </svg>
+            </div>
+
+            <div class="info-usuario">
+                <h1 id="nombre-usuario">Usuario</h1>
+                <p id="email-usuario">email@ejemplo.com</p>
+            </div>
+        </div>
+
+        <!-- Formulario de edición -->
+        <div class="form-container">
+            <h2>Editar Perfil</h2>
+
+
+            <form id="form-editar-perfil">
+
+                <div class="input-group">
+                    <label for="nombre">Nombre Completo</label>
+                    <input type="text" id="nombre" placeholder="Tu nombre completo" maxlength="150" required>
+                </div>
+
+                <div class="input-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" placeholder="tu@email.com" maxlength="150" required>
+                </div>
+
+                <div class="input-group">
+                    <label for="telefono">Teléfono</label>
+                    <input type="tel" id="telefono" placeholder="+507 6000-0000" maxlength="30">
+                </div>
+
+                <div class="input-group">
+                    <label for="direccion">Dirección</label>
+                    <textarea id="direccion" placeholder="Calle, casa, barriada, edificio..." rows="2"
+                        maxlength="250"></textarea>
+                </div>
+
+                <div class="input-group">
+                    <label for="distrito">Distrito</label>
+                    <input type="text" id="distrito" placeholder="Ej. Panamá" maxlength="100">
+                </div>
+
+                <div class="input-group">
+                    <label for="provincia">Provincia</label>
+                    <input type="text" id="provincia" placeholder="Ej. Panamá" maxlength="100">
+                </div>
+
+                <div class="botones">
+                    <button type="submit" class="btn-guardar">
+                        Guardar Cambios
+                    </button>
+
+                    <button type="button" class="btn-cancelar" onclick="window.history.back()">
+                        Cancelar
+                    </button>
+                </div>
+
+            </form>
+
+        </div>
+
+        <!-- Sección de acciones -->
+        <div class="acciones-container">
+            <h2>Opciones</h2>
+
+            <button class="btn-accion" onclick="window.location.href='mis-compras.html'">
+                Mis Compras
+            </button>
+
+            <button class="btn-accion" onclick="window.location.href='favoritos.html'">
+                Favoritos
+            </button>
+
+            <button class="btn-accion btn-cerrar-sesion" onclick="cerrarSesion()">
+                Cerrar Sesión
+            </button>
+        </div>
+    </main>
+
+    <script src="js/init.js"></script>
+    <script src="js/scriptApi.js"></script>
+    <script src="js/editarPerfil.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,69 @@
+/* REGISTRO */
+
+main {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100vh;
+  box-sizing: border-box;
+}
+
+.volver-inicio{
+  display: flex;
+  color: black;
+}
+
+/* FORMULARIO */
+.formulario {
+  width: 50%;
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.campo {
+  margin-bottom: 20px;
+}
+
+/* INPUTS */
+main input {
+  width: 100%;
+  padding: 10px 5px;
+  border: none;
+  border-bottom: 2px solid #ccc;
+  background: transparent;
+  outline: none;
+  font-size: 16px;
+  transition: 0.3s ease;
+}
+
+main input:focus {
+  border-bottom: 2px solid #000;
+}
+
+/* IMAGEN */
+img {
+  width: 50%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* BOTÓN */
+button {
+  width: 100%;
+  padding: 12px;
+  margin-top: 15px;
+  font-size: 18px;
+  border: none;
+  background: #000;
+  color: white;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+button:hover {
+  background: #333;
+}

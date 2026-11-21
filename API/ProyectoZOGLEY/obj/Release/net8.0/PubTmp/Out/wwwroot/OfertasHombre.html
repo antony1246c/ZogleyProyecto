@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/index/header.css">
+    <link rel="stylesheet" href="css/index/iconos.css">
+    <link rel="stylesheet" href="css/index/botones.css">
+    <link rel="stylesheet" href="css/index/carrito.css">
+    <link rel="stylesheet" href="css/index/footer.css">
+    <link rel="stylesheet" href="css/products/sidebar-filtros.css">
+    <link rel="stylesheet" href="css/products/catalogo.css">
+    <link rel="stylesheet" href="css/products/productos.css">
+    <link rel="stylesheet" href="css/index/overlay.css">
+    <link rel="stylesheet" href="css/products/main-productos.css">
+    <link rel="stylesheet" href="css/products/modal.css">
+    <title>Productos</title>
+</head>
+
+<body>
+    <label for="overlay"></label>
+    <div id="overlay"></div>
+    <!--Header -->
+    <header>
+        <!--CONTENEDOR DEL MENÚ -->
+        <div class="menuContainer">
+            <!--OPCIONES DE GÉNERO -->
+            <div class="menuGenero">
+                <button class="btn-principales" data-group="genero">Mujer</button>
+                <button class="btn-principales" data-group="genero">Hombre</button>
+            </div>
+            <img class="logo" src="Recursos/imagenes/1x/LOGO ZUGLEY.png" alt="">
+            <!--ICONOS DEL MENÚ -->
+            <div class="submenu">
+                <!--USUARIO-->
+                <button class="btn-iconos usuario" id="btnIrUsuario">
+                    <svg class="iconos-submenu">
+                        <use href="Recursos/Iconos/iconos.svg#icon-user"></use>
+                    </svg>
+                </button>
+                <!--CARRITO-->
+                <!-- ACTIVADOR OCULTO -->
+                <input type="checkbox" id="checkbox-carrito" hidden>
+                <label for="checkbox-carrito" class="btn-iconos carrito" aria-label="Carrito de compras">
+                    <svg class="iconos-submenu" aria-hidden="true">
+                        <use href="Recursos/Iconos/iconos.svg#icon-cart"></use>
+                    </svg>
+                    <!-- Contador de items -->
+                    <span class="contador-carrito"></span>
+                </label>
+
+            </div>
+        </div>
+        
+        <!--NAVEGACIÓN-->
+        <nav>
+            <a href="index.html"><button class="btn-principales"  data-group="opcion" id="novedades">Novedades</button></a>
+            <button class="btn-principales" data-group="opcion" id="todos-productos">Todos los Productos</button>
+            <a><button class="btn-principales activo" style="color: red;" data-group="opcion" id="ofertas">Ofertas</button></a>
+            <a><button class="btn-principales" data-group="opcion" id="mas-vendidos">Más Vendidos</button></a>
+        </nav>
+
+    </header>
+        <!-- MODAL-->
+    <div class="contenedor-detalles-producto" id="modal-producto">
+
+        <div class="detalle-producto">
+            <!-- Imagen IZQUIERDA -->
+            <div class="detalle-imagen">
+                <img id="modal-imagen" src="" alt="">
+            </div>
+
+            <!-- Todo el contenido DERECHO -->
+            <div class="contenido-detalle">
+                <!-- Cabecera DENTRO del contenido derecho -->
+                <div class="categoria-cerrar">
+                    <p id="modal-categoria">Categoría</p>
+                    <button class="btn-cerrar-detalles-producto" aria-label="Cerrar modal">
+                        ×
+                    </button>
+                </div>
+
+                <div class="nombre-precio">
+                    <h2 id="modal-nombre">Nombre del Producto</h2>
+                    <h2 class="precio-detalle" id="modal-precio">$0.00</h2>
+                </div>
+
+                <div class="cantidad-container">
+                    <button type="button" class="btn-menos">−</button>
+                    <input type="number" id="modal-cantidad" value="1" min="1" max="99" readonly />
+                    <button type="button" class="btn-mas">+</button>
+                </div>
+
+                <div class="detalle-talla">
+                    <div class="titulo-talla">
+                        <h3>Talla</h3>
+                        <a href="" target="_blank">Guía de Talla</a>
+                    </div>
+
+                    <div class="opciones-talla" id="modal-tallas">
+                        <!-- Las tallas se generarán dinámicamente -->
+                    </div>
+                </div>
+
+                <button type="button" class="btn-agregar-carrito">
+                    Agregar al Carrito
+                </button>
+            </div>
+        </div>
+    </div>
+    <div class="overlay-modal" id="overlay-modal"></div>
+    <main>
+
+        <section class="contenedor-productos" id="contenedor-productos">    
+        </section>
+    </main>
+
+    <div class="contenedor-carrito">
+        <div>
+            <input type="checkbox" id="checkbox-carrito" hidden>
+            <label for="checkbox-carrito" class="btn-cerrarcarrito">
+                x
+            </label>
+            <table class="lista-carrito">
+               
+                <tbody></tbody>
+            </table>
+        </div>
+        <div class="contenedor-pagar">
+            <div class="contenedor-subtotal">
+                <div class="contenedor-cantidad">
+                    <p>Subtotal</p>
+                    <span>(Cantidad)</span>
+                </div>
+                <div class="contenedor-precio">
+                    <p class="carrito-precio">Precio</p>
+                </div>
+            </div>
+
+            <button class="btn-pagar">PROCEDER AL PAGO</button>
+        </div>
+    </div>
+    <footer>
+        <div class="footer">
+            <div class="footer-container">
+                <h3 style="color:#b8725e;">Cuenta</h3>
+                <ul>
+                    <li>
+                        <a href="">Iniciar Sesión</a>
+                    </li>
+                    <li>
+                        <a href="">Registrarse</a>
+                    </li>
+                    <li>
+                        <a href="">Canjear Tarjeta de Regalo</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="footer-container">
+                <h3 style="color:#b8725e;">Compañía</h3>
+                <ul>
+                    <li>
+                        <a href="">Sobre Nosotros</a>
+                    </li>
+                    <li>
+                        <a href="">Iniciativas Medioambientales</a>
+                    </li>
+                    <li>
+                        <a href="">Empleos</a>
+                    </li>
+                    <li>
+                        <a href="">Accesibilidad</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="footer-container">
+                <h3 style="color:#b8725e;">Ayuda</h3>
+                <ul>
+                    <li>
+                        <a href="">Centro de Ayuda</a>
+                    </li>
+                    <li>
+                        <a href="">Realizar Devolución</a>
+                    </li>
+                    <li>
+                        <a href="">Política de Devoluciones</a>
+                    </li>
+                    <li>
+                        <a href="">Información de Envío</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="footer-container">
+                <h3 style="color:#b8725e;">Conectar</h3>
+                <ul>
+                    <li>
+                        <a href="">Facebook</a>
+                    </li>
+                    <li>
+                        <a href="">Instagram</a>
+                    </li>
+                    <li>
+                        <a href="">Twitter</a>
+                    </li>
+                    <li>
+                        <a href="">WhatsApp</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="footer-subscription">
+                <h3 style="color: #b8725e; font-weight: 400;">
+                    Recibe las últimas novedades
+                </h3>
+                <input type="email" placeholder="Ingresa tu correo electrónico">
+                <p style="font-weight: 400;">Al subscribirse, aceptas nuestras <a href="">Política de Privacidad y
+                        Terminos de Servicio.</a></p>
+                <button type="submit">Suscribirse</button>
+            </div>
+        </div>
+        <div class="politicaterminos">
+            <a href="">Politica de Privacidad</a><a href="">Terminos y Servicio</a>
+        </div>
+        <div style="text-align: center; color: #737373;">© 2025 Todos los Derechos Reservados</div>
+
+    </footer>
+    <script src="js/init.js"></script>
+    <script src="js/carritoManager.js"></script>
+    <script src="js/scriptModal.js"></script>
+    <script src="js/scriptApi.js"></script>
+    <script src="js/scriptOfertas.js"></script>
+</body>
+
+</html>

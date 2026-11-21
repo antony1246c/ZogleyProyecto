@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zogley</title>
+    <meta name="description" content="Zogley - Moda sostenible y diseño consciente">
+
+    <!-- Estilos consolidados (manteniendo tus archivos separados) -->
+    <link rel="stylesheet" href="css/index/reset.css">
+    <link rel="stylesheet" href="css/index/header.css">
+    <link rel="stylesheet" href="css/index/hero.css">
+    <link rel="stylesheet" href="css/index/categorias.css">
+    <link rel="stylesheet" href="css/products/productos.css">
+    <link rel="stylesheet" href="css/index/botones.css">
+    <link rel="stylesheet" href="css/index/instagram.css">
+    <link rel="stylesheet" href="css/index/frase.css">
+    <link rel="stylesheet" href="css/index/logo.css">
+    <link rel="stylesheet" href="css/index/iconos.css">
+    <link rel="stylesheet" href="css/index/tipografia.css">
+    <link rel="stylesheet" href="css/index/footer.css">
+    <link rel="stylesheet" href="css/index/sugerencias.css">
+    <link rel="stylesheet" href="css/index/carrusel-tendencias.css">
+    <link rel="stylesheet" href="css/index/carrito.css">
+    <link rel="stylesheet" href="css/index/overlay.css">
+    <link rel="stylesheet" href="css/index/nav.css">
+    <link rel="stylesheet" href="css/products/modal.css">
+</head>
+
+<body>
+
+    <!-- Overlay general -->
+    <div id="overlay"></div>
+
+    <!-- ======================= HEADER ======================= -->
+    <header>
+
+        <!-- Contenedor principal del menú superior -->
+        <div class="menuContainer">
+
+            <!-- Botones Mujer / Hombre -->
+            <div class="menuGenero">
+                <button class="btn-principales activo" data-group="genero">Mujer</button>
+                <button class="btn-principales" data-group="genero">Hombre</button>
+            </div>
+
+            <!-- Logo con atributos optimizados -->
+            <img class="logo" src="Recursos/imagenes/1x/LOGO ZUGLEY.png" alt="Zogley" width="120" height="40">
+
+            <!-- Iconos de búsqueda / usuario / carrito -->
+            <div class="submenu">
+
+                <!-- Búsqueda -->
+
+                <!-- Usuario -->
+                <button class="btn-iconos usuario" id="btnIrUsuario" aria-label="Mi cuenta">
+                    <svg class="iconos-submenu" aria-hidden="true">
+                        <use href="Recursos/Iconos/iconos.svg#icon-user"></use>
+                    </svg>
+                </button>
+
+                <!-- Carrito (checkbox activador invisible) -->
+                <input type="checkbox" id="checkbox-carrito" hidden>
+                <label for="checkbox-carrito" class="btn-iconos carrito" aria-label="Carrito de compras">
+                    <svg class="iconos-submenu" aria-hidden="true">
+                        <use href="Recursos/Iconos/iconos.svg#icon-cart"></use>
+                    </svg>
+                    <!-- Contador de items -->
+                    <span class="contador-carrito"></span>
+                </label>
+
+            </div>
+        </div>
+
+        <!-- NAV principal -->
+        <nav>
+            <a href="index.html"><button class="btn-principales activo" id="novedades">Novedades</button></a>
+            <button class="btn-principales" id="todos-productos">Todos los Productos</button>
+            <a><button class="btn-principales" style="color: red;" id="ofertas">Ofertas</button></a>
+            <a><button class="btn-principales" id="mas-vendidos">Más Vendidos</button></a>
+        </nav>
+
+    </header>
+
+    <div class="contenedor-detalles-producto" id="modal-producto">
+
+        <div class="detalle-producto">
+            <!-- Imagen IZQUIERDA -->
+            <div class="detalle-imagen">
+                <img id="modal-imagen" src="" alt="">
+            </div>
+
+            <!-- Todo el contenido DERECHO -->
+            <div class="contenido-detalle">
+                <!-- Cabecera DENTRO del contenido derecho -->
+                <div class="categoria-cerrar">
+                    <p id="modal-categoria">Categoría</p>
+                    <button class="btn-cerrar-detalles-producto" aria-label="Cerrar modal">
+                        ×
+                    </button>
+                </div>
+
+                <div class="nombre-precio">
+                    <h2 id="modal-nombre">Nombre del Producto</h2>
+                    <h2 class="precio-detalle" id="modal-precio">$0.00</h2>
+                </div>
+
+                <div class="cantidad-container">
+                    <button type="button" class="btn-menos">−</button>
+                    <input type="number" id="modal-cantidad" value="1" min="1" max="99" readonly />
+                    <button type="button" class="btn-mas">+</button>
+                </div>
+
+                <div class="detalle-talla">
+                    <div class="titulo-talla">
+                        <h3>Talla</h3>
+                        <a href="" target="_blank">Guía de Talla</a>
+                    </div>
+
+                    <div class="opciones-talla" id="modal-tallas">
+                        <!-- Las tallas se generarán dinámicamente -->
+                    </div>
+                </div>
+
+                <button type="button" class="btn-agregar-carrito">
+                    Agregar al Carrito
+                </button>
+            </div>
+        </div>
+    </div>
+    <div class="overlay-modal" id="overlay-modal"></div>
+
+    <!-- ======================= CARRITO LATERAL ======================= -->
+    <div class="contenedor-carrito">
+        <div>
+            <!-- Cerrar carrito -->
+            <label for="checkbox-carrito" class="btn-cerrarcarrito">×</label>
+
+            <!-- Lista carrito -->
+            <table class="lista-carrito">
+               
+                <tbody></tbody>
+            </table>
+        </div>
+
+        <!-- Subtotal y pago -->
+        <div class="contenedor-pagar">
+            <div class="contenedor-subtotal">
+                <div class="contenedor-cantidad">
+                    <p>Subtotal</p>
+                    <span>(Cantidad)</span>
+                </div>
+                <div class="contenedor-precio">
+                    <p class="carrito-precio">Precio</p>
+                </div>
+            </div>
+
+            <button class="btn-pagar">PROCEDER AL PAGO</button>
+        </div>
+    </div>
+
+    <!-- ======================= CONTENIDO PRINCIPAL ======================= -->
+    <main>
+
+        <!-- Aquí se carga main-hombre.html o main-mujer.html mediante JS -->
+        <div id="contenido-main"></div>
+
+        <!-- ======================= TENDENCIAS ======================= -->
+        <section>
+            <h3 class="titulo-tendencias">Tendencias del momento</h3>
+
+            <div class="carrusel-tendencias" id="carrusel-tendencias">
+                <!-- Los productos se cargarán dinámicamente -->
+            </div>
+        </section>
+
+        <!-- ======================= FRASE ======================= -->
+        <section>
+            <div class="frase">
+                <h2>El arte de elegir con propósito</h2>
+                <p style="color: black; font-weight: 100;">
+                    Elegir calidad sobre cantidad es abrazar la esencia del diseño consciente.
+                    Cada prenda que creo busca trascender el tiempo, combinando materiales duraderos
+                    con una confección responsable. Mi propósito es simplificar la vida de quienes visten
+                    mis diseños y celebrar la belleza de lo auténtico, lo sostenible y lo eterno.
+                </p>
+            </div>
+        </section>
+
+        <!-- ======================= INSTAGRAM ======================= -->
+        <section>
+            <div class="instagram-section">
+                <h2>Instagram</h2>
+
+                <div class="instagram">
+                    <!-- Cada publicación con loading lazy -->
+                    <div class="publicacion" onclick="window.location.href='//www.instagram.com/zogleycouture/'"
+                        style="background-image: url('Recursos/imagenes/publicaciones/publicacion1.png');">
+                        <div class="icono-ig">
+                            <svg viewBox="0 0 34 34" aria-hidden="true">
+                                <use href="Recursos/Iconos/iconos.svg#icon-instagram"></use>
+                            </svg>
+                        </div>
+                    </div>
+
+                    <div class="publicacion" onclick="window.location.href='//www.instagram.com/zogleycouture/'"
+                        style="background-image: url('Recursos/imagenes/publicaciones/publicacion2.png');">
+                        <div class="icono-ig">
+                            <svg viewBox="0 0 34 34" aria-hidden="true">
+                                <use href="Recursos/Iconos/iconos.svg#icon-instagram"></use>
+                            </svg>
+                        </div>
+                    </div>
+
+                    <div class="publicacion" onclick="window.location.href='//www.instagram.com/zogleycouture/'"
+                        style="background-image: url('Recursos/imagenes/publicaciones/publicacion3.jpg');">
+                        <div class="icono-ig">
+                            <svg viewBox="0 0 34 34" aria-hidden="true">
+                                <use href="Recursos/Iconos/iconos.svg#icon-instagram"></use>
+                            </svg>
+                        </div>
+                    </div>
+
+                    <div class="publicacion" onclick="window.location.href='//www.instagram.com/zogleycouture/'"
+                        style="background-image: url('Recursos/imagenes/publicaciones/publicacion4.png');">
+                        <div class="icono-ig">
+                            <svg viewBox="0 0 34 34" aria-hidden="true">
+                                <use href="Recursos/Iconos/iconos.svg#icon-instagram"></use>
+                            </svg>
+                        </div>
+                    </div>
+
+                    <div class="publicacion" onclick="window.location.href='//www.instagram.com/zogleycouture/'"
+                        style="background-image: url('Recursos/imagenes/publicaciones/publicacion5.png');">
+                        <div class="icono-ig">
+                            <svg viewBox="0 0 34 34" aria-hidden="true">
+                                <use href="Recursos/Iconos/iconos.svg#icon-instagram"></use>
+                            </svg>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- ======================= FOOTER ======================= -->
+    <footer>
+        <div class="footer">
+
+            <!-- Cuenta -->
+            <div class="footer-container">
+                <h3>Cuenta</h3>
+                <ul>
+                    <li><a href="#" aria-label="Iniciar Sesión">Iniciar Sesión</a></li>
+                    <li><a href="#" aria-label="Registrarse">Registrarse</a></li>
+                    <li><a href="#" aria-label="Canjear Tarjeta de Regalo">Canjear Tarjeta de Regalo</a></li>
+                </ul>
+            </div>
+
+            <!-- Compañía -->
+            <div class="footer-container">
+                <h3>Compañía</h3>
+                <ul>
+                    <li><a href="#" aria-label="Sobre Nosotros">Sobre Nosotros</a></li>
+                    <li><a href="#" aria-label="Iniciativas Medioambientales">Iniciativas Medioambientales</a></li>
+                    <li><a href="#" aria-label="Empleos">Empleos</a></li>
+                    <li><a href="#" aria-label="Accesibilidad">Accesibilidad</a></li>
+                </ul>
+            </div>
+
+            <!-- Ayuda -->
+            <div class="footer-container">
+                <h3>Ayuda</h3>
+                <ul>
+                    <li><a href="#" aria-label="Centro de Ayuda">Centro de Ayuda</a></li>
+                    <li><a href="#" aria-label="Realizar Devolución">Realizar Devolución</a></li>
+                    <li><a href="#" aria-label="Política de Devoluciones">Política de Devoluciones</a></li>
+                    <li><a href="#" aria-label="Información de Envío">Información de Envío</a></li>
+                </ul>
+            </div>
+
+            <!-- Redes sociales -->
+            <div class="footer-container">
+                <h3>Conectar</h3>
+                <ul>
+                    <li><a href="#" aria-label="Facebook">Facebook</a></li>
+                    <li><a href="//www.instagram.com/zogleycouture/" aria-label="Instagram">Instagram</a></li>
+                    <li><a href="#" aria-label="Twitter">Twitter</a></li>
+                    <li><a href="#" aria-label="WhatsApp">WhatsApp</a></li>
+                </ul>
+            </div>
+
+            <!-- Suscripción -->
+            <div class="footer-subscription">
+                <h3>Recibe las últimas novedades</h3>
+                <input type="email" placeholder="Ingresa tu correo electrónico"
+                    aria-label="Correo electrónico para suscripción">
+                <p>
+                    Al subscribirse, aceptas nuestras <a href="#" aria-label="Política de Privacidad">Política de
+                        Privacidad</a> y
+                    <a href="#" aria-label="Términos de Servicio">Términos de Servicio</a>.
+                </p>
+                <button type="submit">Suscribirse</button>
+            </div>
+
+        </div>
+
+        <!-- Política y términos -->
+        <div class="politicaterminos">
+            <a href="#" aria-label="Política de Privacidad">Política de Privacidad</a>
+            <a href="#" aria-label="Términos y Servicio">Términos y Servicio</a>
+        </div>
+
+        <div class="copyright">
+            © 2025 Todos los Derechos Reservados
+        </div>
+
+    </footer>
+    <script src="js/init.js"></script>
+    <script src="js/carritoManager.js"></script>
+    <script src="js/scriptModal.js"></script>
+    <script src="js/scriptApi.js"></script>
+    <script src="js/scriptindex.js"></script>
+
+</body>
+
+</html>

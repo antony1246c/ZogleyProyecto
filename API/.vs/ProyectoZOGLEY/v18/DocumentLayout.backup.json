@@ -1,0 +1,352 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\antonio\\Downloads\\Zogley_Proyecto_Final\\Zogley_Proyecto_Final\\Zogley_Proyecto_Final\\API\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{77CDCDAC-4AF9-4372-9BF1-A214C50523E7}|ProyectoZOGLEY\\ProyectoZOGLEY.csproj|c:\\users\\antonio\\downloads\\zogley_proyecto_final\\zogley_proyecto_final\\zogley_proyecto_final\\api\\proyectozogley\\controllers\\administradorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{77CDCDAC-4AF9-4372-9BF1-A214C50523E7}|ProyectoZOGLEY\\ProyectoZOGLEY.csproj|solutionrelative:proyectozogley\\controllers\\administradorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{77CDCDAC-4AF9-4372-9BF1-A214C50523E7}|ProyectoZOGLEY\\ProyectoZOGLEY.csproj|c:\\users\\antonio\\downloads\\zogley_proyecto_final\\zogley_proyecto_final\\zogley_proyecto_final\\api\\proyectozogley\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{77CDCDAC-4AF9-4372-9BF1-A214C50523E7}|ProyectoZOGLEY\\ProyectoZOGLEY.csproj|solutionrelative:proyectozogley\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{77CDCDAC-4AF9-4372-9BF1-A214C50523E7}|ProyectoZOGLEY\\ProyectoZOGLEY.csproj|c:\\users\\antonio\\downloads\\zogley_proyecto_final\\zogley_proyecto_final\\zogley_proyecto_final\\api\\proyectozogley\\wwwroot\\js\\scriptapi.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{77CDCDAC-4AF9-4372-9BF1-A214C50523E7}|ProyectoZOGLEY\\ProyectoZOGLEY.csproj|solutionrelative:proyectozogley\\wwwroot\\js\\scriptapi.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{77CDCDAC-4AF9-4372-9BF1-A214C50523E7}|ProyectoZOGLEY\\ProyectoZOGLEY.csproj|c:\\users\\antonio\\downloads\\zogley_proyecto_final\\zogley_proyecto_final\\zogley_proyecto_final\\api\\proyectozogley\\wwwroot\\js\\scriptadmin.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{77CDCDAC-4AF9-4372-9BF1-A214C50523E7}|ProyectoZOGLEY\\ProyectoZOGLEY.csproj|solutionrelative:proyectozogley\\wwwroot\\js\\scriptadmin.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{77CDCDAC-4AF9-4372-9BF1-A214C50523E7}|ProyectoZOGLEY\\ProyectoZOGLEY.csproj|c:\\users\\antonio\\downloads\\zogley_proyecto_final\\zogley_proyecto_final\\zogley_proyecto_final\\api\\proyectozogley\\models\\dtos\\cambiarestadoproductorequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{77CDCDAC-4AF9-4372-9BF1-A214C50523E7}|ProyectoZOGLEY\\ProyectoZOGLEY.csproj|solutionrelative:proyectozogley\\models\\dtos\\cambiarestadoproductorequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{77CDCDAC-4AF9-4372-9BF1-A214C50523E7}|ProyectoZOGLEY\\ProyectoZOGLEY.csproj|c:\\users\\antonio\\downloads\\zogley_proyecto_final\\zogley_proyecto_final\\zogley_proyecto_final\\api\\proyectozogley\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{77CDCDAC-4AF9-4372-9BF1-A214C50523E7}|ProyectoZOGLEY\\ProyectoZOGLEY.csproj|solutionrelative:proyectozogley\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{77CDCDAC-4AF9-4372-9BF1-A214C50523E7}|ProyectoZOGLEY\\ProyectoZOGLEY.csproj|c:\\users\\antonio\\downloads\\zogley_proyecto_final\\zogley_proyecto_final\\zogley_proyecto_final\\api\\proyectozogley\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{77CDCDAC-4AF9-4372-9BF1-A214C50523E7}|ProyectoZOGLEY\\ProyectoZOGLEY.csproj|solutionrelative:proyectozogley\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{77CDCDAC-4AF9-4372-9BF1-A214C50523E7}|ProyectoZOGLEY\\ProyectoZOGLEY.csproj|c:\\users\\antonio\\downloads\\zogley_proyecto_final\\zogley_proyecto_final\\zogley_proyecto_final\\api\\proyectozogley\\wwwroot\\js\\procesar-transaccion.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{77CDCDAC-4AF9-4372-9BF1-A214C50523E7}|ProyectoZOGLEY\\ProyectoZOGLEY.csproj|solutionrelative:proyectozogley\\wwwroot\\js\\procesar-transaccion.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{77CDCDAC-4AF9-4372-9BF1-A214C50523E7}|ProyectoZOGLEY\\ProyectoZOGLEY.csproj|c:\\users\\antonio\\downloads\\zogley_proyecto_final\\zogley_proyecto_final\\zogley_proyecto_final\\api\\proyectozogley\\controllers\\userinfocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{77CDCDAC-4AF9-4372-9BF1-A214C50523E7}|ProyectoZOGLEY\\ProyectoZOGLEY.csproj|solutionrelative:proyectozogley\\controllers\\userinfocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{77CDCDAC-4AF9-4372-9BF1-A214C50523E7}|ProyectoZOGLEY\\ProyectoZOGLEY.csproj|c:\\users\\antonio\\downloads\\zogley_proyecto_final\\zogley_proyecto_final\\zogley_proyecto_final\\api\\proyectozogley\\models\\dtos\\actualizarperfildto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{77CDCDAC-4AF9-4372-9BF1-A214C50523E7}|ProyectoZOGLEY\\ProyectoZOGLEY.csproj|solutionrelative:proyectozogley\\models\\dtos\\actualizarperfildto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{77CDCDAC-4AF9-4372-9BF1-A214C50523E7}|ProyectoZOGLEY\\ProyectoZOGLEY.csproj|c:\\users\\antonio\\downloads\\zogley_proyecto_final\\zogley_proyecto_final\\zogley_proyecto_final\\api\\proyectozogley\\models\\dtos\\usuariosinformacioncompletadto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{77CDCDAC-4AF9-4372-9BF1-A214C50523E7}|ProyectoZOGLEY\\ProyectoZOGLEY.csproj|solutionrelative:proyectozogley\\models\\dtos\\usuariosinformacioncompletadto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{77CDCDAC-4AF9-4372-9BF1-A214C50523E7}|ProyectoZOGLEY\\ProyectoZOGLEY.csproj|c:\\users\\antonio\\downloads\\zogley_proyecto_final\\zogley_proyecto_final\\zogley_proyecto_final\\api\\proyectozogley\\models\\dtos\\userinfodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{77CDCDAC-4AF9-4372-9BF1-A214C50523E7}|ProyectoZOGLEY\\ProyectoZOGLEY.csproj|solutionrelative:proyectozogley\\models\\dtos\\userinfodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{77CDCDAC-4AF9-4372-9BF1-A214C50523E7}|ProyectoZOGLEY\\ProyectoZOGLEY.csproj|c:\\users\\antonio\\downloads\\zogley_proyecto_final\\zogley_proyecto_final\\zogley_proyecto_final\\api\\proyectozogley\\services\\correofacturaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{77CDCDAC-4AF9-4372-9BF1-A214C50523E7}|ProyectoZOGLEY\\ProyectoZOGLEY.csproj|solutionrelative:proyectozogley\\services\\correofacturaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{77CDCDAC-4AF9-4372-9BF1-A214C50523E7}|ProyectoZOGLEY\\ProyectoZOGLEY.csproj|c:\\users\\antonio\\downloads\\zogley_proyecto_final\\zogley_proyecto_final\\zogley_proyecto_final\\api\\proyectozogley\\models\\detallefactura.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{77CDCDAC-4AF9-4372-9BF1-A214C50523E7}|ProyectoZOGLEY\\ProyectoZOGLEY.csproj|solutionrelative:proyectozogley\\models\\detallefactura.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{77CDCDAC-4AF9-4372-9BF1-A214C50523E7}|ProyectoZOGLEY\\ProyectoZOGLEY.csproj|c:\\users\\antonio\\downloads\\zogley_proyecto_final\\zogley_proyecto_final\\zogley_proyecto_final\\api\\proyectozogley\\controllers\\facturascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{77CDCDAC-4AF9-4372-9BF1-A214C50523E7}|ProyectoZOGLEY\\ProyectoZOGLEY.csproj|solutionrelative:proyectozogley\\controllers\\facturascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{77CDCDAC-4AF9-4372-9BF1-A214C50523E7}|ProyectoZOGLEY\\ProyectoZOGLEY.csproj|c:\\users\\antonio\\downloads\\zogley_proyecto_final\\zogley_proyecto_final\\zogley_proyecto_final\\api\\proyectozogley\\models\\factura.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{77CDCDAC-4AF9-4372-9BF1-A214C50523E7}|ProyectoZOGLEY\\ProyectoZOGLEY.csproj|solutionrelative:proyectozogley\\models\\factura.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{77CDCDAC-4AF9-4372-9BF1-A214C50523E7}|ProyectoZOGLEY\\ProyectoZOGLEY.csproj|c:\\users\\antonio\\downloads\\zogley_proyecto_final\\zogley_proyecto_final\\zogley_proyecto_final\\api\\proyectozogley\\services\\facturaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{77CDCDAC-4AF9-4372-9BF1-A214C50523E7}|ProyectoZOGLEY\\ProyectoZOGLEY.csproj|solutionrelative:proyectozogley\\services\\facturaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{77CDCDAC-4AF9-4372-9BF1-A214C50523E7}|ProyectoZOGLEY\\ProyectoZOGLEY.csproj|c:\\users\\antonio\\downloads\\zogley_proyecto_final\\zogley_proyecto_final\\zogley_proyecto_final\\api\\proyectozogley\\services\\pdffacturagenerator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{77CDCDAC-4AF9-4372-9BF1-A214C50523E7}|ProyectoZOGLEY\\ProyectoZOGLEY.csproj|solutionrelative:proyectozogley\\services\\pdffacturagenerator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{77CDCDAC-4AF9-4372-9BF1-A214C50523E7}|ProyectoZOGLEY\\ProyectoZOGLEY.csproj|c:\\users\\antonio\\downloads\\zogley_proyecto_final\\zogley_proyecto_final\\zogley_proyecto_final\\api\\proyectozogley\\models\\dtos\\crearfacturarequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{77CDCDAC-4AF9-4372-9BF1-A214C50523E7}|ProyectoZOGLEY\\ProyectoZOGLEY.csproj|solutionrelative:proyectozogley\\models\\dtos\\crearfacturarequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AdministradorController.cs",
+              "DocumentMoniker": "C:\\Users\\antonio\\Downloads\\Zogley_Proyecto_Final\\Zogley_Proyecto_Final\\Zogley_Proyecto_Final\\API\\ProyectoZOGLEY\\Controllers\\AdministradorController.cs",
+              "RelativeDocumentMoniker": "ProyectoZOGLEY\\Controllers\\AdministradorController.cs",
+              "ToolTip": "C:\\Users\\antonio\\Downloads\\Zogley_Proyecto_Final\\Zogley_Proyecto_Final\\Zogley_Proyecto_Final\\API\\ProyectoZOGLEY\\Controllers\\AdministradorController.cs*",
+              "RelativeToolTip": "ProyectoZOGLEY\\Controllers\\AdministradorController.cs*",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAAAEIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-12T02:54:52.666Z",
+              "EditorCaption": "",
+              "OwnerCaption": "%2"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "scriptApi.js",
+              "DocumentMoniker": "C:\\Users\\antonio\\Downloads\\Zogley_Proyecto_Final\\Zogley_Proyecto_Final\\Zogley_Proyecto_Final\\API\\ProyectoZOGLEY\\wwwroot\\js\\scriptApi.js",
+              "RelativeDocumentMoniker": "ProyectoZOGLEY\\wwwroot\\js\\scriptApi.js",
+              "ToolTip": "C:\\Users\\antonio\\Downloads\\Zogley_Proyecto_Final\\Zogley_Proyecto_Final\\Zogley_Proyecto_Final\\API\\ProyectoZOGLEY\\wwwroot\\js\\scriptApi.js",
+              "RelativeToolTip": "ProyectoZOGLEY\\wwwroot\\js\\scriptApi.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2026-11-12T01:39:24.067Z",
+              "OwnerCaption": "%2"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "scriptAdmin.js",
+              "DocumentMoniker": "C:\\Users\\antonio\\Downloads\\Zogley_Proyecto_Final\\Zogley_Proyecto_Final\\Zogley_Proyecto_Final\\API\\ProyectoZOGLEY\\wwwroot\\js\\scriptAdmin.js",
+              "RelativeDocumentMoniker": "ProyectoZOGLEY\\wwwroot\\js\\scriptAdmin.js",
+              "ToolTip": "C:\\Users\\antonio\\Downloads\\Zogley_Proyecto_Final\\Zogley_Proyecto_Final\\Zogley_Proyecto_Final\\API\\ProyectoZOGLEY\\wwwroot\\js\\scriptAdmin.js",
+              "RelativeToolTip": "ProyectoZOGLEY\\wwwroot\\js\\scriptAdmin.js",
+              "ViewState": "AgIAAOkBAAAAAAAAAAAuwPYBAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2026-11-12T02:58:44.664Z",
+              "OwnerCaption": "%2"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\antonio\\Downloads\\Zogley_Proyecto_Final\\Zogley_Proyecto_Final\\Zogley_Proyecto_Final\\API\\ProyectoZOGLEY\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "ProyectoZOGLEY\\Properties\\launchSettings.json",
+              "ToolTip": "C:\\Users\\antonio\\Downloads\\Zogley_Proyecto_Final\\Zogley_Proyecto_Final\\Zogley_Proyecto_Final\\API\\ProyectoZOGLEY\\Properties\\launchSettings.json",
+              "RelativeToolTip": "ProyectoZOGLEY\\Properties\\launchSettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-11-12T01:46:47.341Z",
+              "OwnerCaption": "%2"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\antonio\\Downloads\\Zogley_Proyecto_Final\\Zogley_Proyecto_Final\\Zogley_Proyecto_Final\\API\\ProyectoZOGLEY\\appsettings.json",
+              "RelativeDocumentMoniker": "ProyectoZOGLEY\\appsettings.json",
+              "ToolTip": "C:\\Users\\antonio\\Downloads\\Zogley_Proyecto_Final\\Zogley_Proyecto_Final\\Zogley_Proyecto_Final\\API\\ProyectoZOGLEY\\appsettings.json",
+              "RelativeToolTip": "ProyectoZOGLEY\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-11-12T00:53:09.983Z",
+              "OwnerCaption": "%2"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "CambiarEstadoProductoRequest.cs",
+              "DocumentMoniker": "C:\\Users\\antonio\\Downloads\\Zogley_Proyecto_Final\\Zogley_Proyecto_Final\\Zogley_Proyecto_Final\\API\\ProyectoZOGLEY\\Models\\DTOS\\CambiarEstadoProductoRequest.cs",
+              "RelativeDocumentMoniker": "ProyectoZOGLEY\\Models\\DTOS\\CambiarEstadoProductoRequest.cs",
+              "ToolTip": "C:\\Users\\antonio\\Downloads\\Zogley_Proyecto_Final\\Zogley_Proyecto_Final\\Zogley_Proyecto_Final\\API\\ProyectoZOGLEY\\Models\\DTOS\\CambiarEstadoProductoRequest.cs",
+              "RelativeToolTip": "ProyectoZOGLEY\\Models\\DTOS\\CambiarEstadoProductoRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-12T03:04:45.653Z",
+              "OwnerCaption": "%2"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "procesar-transaccion.js",
+              "DocumentMoniker": "C:\\Users\\antonio\\Downloads\\Zogley_Proyecto_Final\\Zogley_Proyecto_Final\\Zogley_Proyecto_Final\\API\\ProyectoZOGLEY\\wwwroot\\js\\procesar-transaccion.js",
+              "RelativeDocumentMoniker": "ProyectoZOGLEY\\wwwroot\\js\\procesar-transaccion.js",
+              "ToolTip": "C:\\Users\\antonio\\Downloads\\Zogley_Proyecto_Final\\Zogley_Proyecto_Final\\Zogley_Proyecto_Final\\API\\ProyectoZOGLEY\\wwwroot\\js\\procesar-transaccion.js",
+              "RelativeToolTip": "ProyectoZOGLEY\\wwwroot\\js\\procesar-transaccion.js",
+              "ViewState": "AgIAABAAAAAAAAAAAAAQwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2026-11-12T01:39:26.552Z",
+              "OwnerCaption": "%2"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\antonio\\Downloads\\Zogley_Proyecto_Final\\Zogley_Proyecto_Final\\Zogley_Proyecto_Final\\API\\ProyectoZOGLEY\\Program.cs",
+              "RelativeDocumentMoniker": "ProyectoZOGLEY\\Program.cs",
+              "ToolTip": "C:\\Users\\antonio\\Downloads\\Zogley_Proyecto_Final\\Zogley_Proyecto_Final\\Zogley_Proyecto_Final\\API\\ProyectoZOGLEY\\Program.cs",
+              "RelativeToolTip": "ProyectoZOGLEY\\Program.cs",
+              "ViewState": "AgIAAGUAAAAAAAAAAAAIwG0AAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-12T00:56:21.337Z",
+              "OwnerCaption": "%2"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "UserInfoController.cs",
+              "DocumentMoniker": "C:\\Users\\antonio\\Downloads\\Zogley_Proyecto_Final\\Zogley_Proyecto_Final\\Zogley_Proyecto_Final\\API\\ProyectoZOGLEY\\Controllers\\UserInfoController.cs",
+              "RelativeDocumentMoniker": "ProyectoZOGLEY\\Controllers\\UserInfoController.cs",
+              "ToolTip": "C:\\Users\\antonio\\Downloads\\Zogley_Proyecto_Final\\Zogley_Proyecto_Final\\Zogley_Proyecto_Final\\API\\ProyectoZOGLEY\\Controllers\\UserInfoController.cs",
+              "RelativeToolTip": "ProyectoZOGLEY\\Controllers\\UserInfoController.cs",
+              "ViewState": "AgIAALEAAAAAAAAAAAAcwMsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-12T00:34:52.703Z",
+              "OwnerCaption": "%2"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ActualizarPerfilDto.cs",
+              "DocumentMoniker": "C:\\Users\\antonio\\Downloads\\Zogley_Proyecto_Final\\Zogley_Proyecto_Final\\Zogley_Proyecto_Final\\API\\ProyectoZOGLEY\\Models\\DTOS\\ActualizarPerfilDto.cs",
+              "RelativeDocumentMoniker": "ProyectoZOGLEY\\Models\\DTOS\\ActualizarPerfilDto.cs",
+              "ToolTip": "C:\\Users\\antonio\\Downloads\\Zogley_Proyecto_Final\\Zogley_Proyecto_Final\\Zogley_Proyecto_Final\\API\\ProyectoZOGLEY\\Models\\DTOS\\ActualizarPerfilDto.cs",
+              "RelativeToolTip": "ProyectoZOGLEY\\Models\\DTOS\\ActualizarPerfilDto.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAcwB0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-12T00:40:28.415Z",
+              "OwnerCaption": "%2"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "UsuariosInformacionCompletaDto.cs",
+              "DocumentMoniker": "C:\\Users\\antonio\\Downloads\\Zogley_Proyecto_Final\\Zogley_Proyecto_Final\\Zogley_Proyecto_Final\\API\\ProyectoZOGLEY\\Models\\DTOS\\UsuariosInformacionCompletaDto.cs",
+              "RelativeDocumentMoniker": "ProyectoZOGLEY\\Models\\DTOS\\UsuariosInformacionCompletaDto.cs",
+              "ToolTip": "C:\\Users\\antonio\\Downloads\\Zogley_Proyecto_Final\\Zogley_Proyecto_Final\\Zogley_Proyecto_Final\\API\\ProyectoZOGLEY\\Models\\DTOS\\UsuariosInformacionCompletaDto.cs",
+              "RelativeToolTip": "ProyectoZOGLEY\\Models\\DTOS\\UsuariosInformacionCompletaDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-12T00:34:43.249Z",
+              "OwnerCaption": "%2"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "UserInfoDto.cs",
+              "DocumentMoniker": "C:\\Users\\antonio\\Downloads\\Zogley_Proyecto_Final\\Zogley_Proyecto_Final\\Zogley_Proyecto_Final\\API\\ProyectoZOGLEY\\Models\\DTOS\\UserInfoDto.cs",
+              "RelativeDocumentMoniker": "ProyectoZOGLEY\\Models\\DTOS\\UserInfoDto.cs",
+              "ToolTip": "C:\\Users\\antonio\\Downloads\\Zogley_Proyecto_Final\\Zogley_Proyecto_Final\\Zogley_Proyecto_Final\\API\\ProyectoZOGLEY\\Models\\DTOS\\UserInfoDto.cs",
+              "RelativeToolTip": "ProyectoZOGLEY\\Models\\DTOS\\UserInfoDto.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAQwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-12T00:34:30.881Z",
+              "OwnerCaption": "%2"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "PdfFacturaGenerator.cs",
+              "DocumentMoniker": "C:\\Users\\antonio\\Downloads\\Zogley_Proyecto_Final\\Zogley_Proyecto_Final\\Zogley_Proyecto_Final\\API\\ProyectoZOGLEY\\Services\\PdfFacturaGenerator.cs",
+              "RelativeDocumentMoniker": "ProyectoZOGLEY\\Services\\PdfFacturaGenerator.cs",
+              "ToolTip": "C:\\Users\\antonio\\Downloads\\Zogley_Proyecto_Final\\Zogley_Proyecto_Final\\Zogley_Proyecto_Final\\API\\ProyectoZOGLEY\\Services\\PdfFacturaGenerator.cs",
+              "RelativeToolTip": "ProyectoZOGLEY\\Services\\PdfFacturaGenerator.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-11T15:29:17.964Z",
+              "OwnerCaption": "%2"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "FacturaService.cs",
+              "DocumentMoniker": "C:\\Users\\antonio\\Downloads\\Zogley_Proyecto_Final\\Zogley_Proyecto_Final\\Zogley_Proyecto_Final\\API\\ProyectoZOGLEY\\Services\\FacturaService.cs",
+              "RelativeDocumentMoniker": "ProyectoZOGLEY\\Services\\FacturaService.cs",
+              "ToolTip": "C:\\Users\\antonio\\Downloads\\Zogley_Proyecto_Final\\Zogley_Proyecto_Final\\Zogley_Proyecto_Final\\API\\ProyectoZOGLEY\\Services\\FacturaService.cs",
+              "RelativeToolTip": "ProyectoZOGLEY\\Services\\FacturaService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-11T15:29:16.799Z",
+              "OwnerCaption": "%2"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "CorreoFacturaService.cs",
+              "DocumentMoniker": "C:\\Users\\antonio\\Downloads\\Zogley_Proyecto_Final\\Zogley_Proyecto_Final\\Zogley_Proyecto_Final\\API\\ProyectoZOGLEY\\Services\\CorreoFacturaService.cs",
+              "RelativeDocumentMoniker": "ProyectoZOGLEY\\Services\\CorreoFacturaService.cs",
+              "ToolTip": "C:\\Users\\antonio\\Downloads\\Zogley_Proyecto_Final\\Zogley_Proyecto_Final\\Zogley_Proyecto_Final\\API\\ProyectoZOGLEY\\Services\\CorreoFacturaService.cs",
+              "RelativeToolTip": "ProyectoZOGLEY\\Services\\CorreoFacturaService.cs",
+              "ViewState": "AgIAAB0AAAAAAAAAAAAgwCUAAABTAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-11T15:29:14.79Z",
+              "OwnerCaption": "%2"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "DetalleFactura.cs",
+              "DocumentMoniker": "C:\\Users\\antonio\\Downloads\\Zogley_Proyecto_Final\\Zogley_Proyecto_Final\\Zogley_Proyecto_Final\\API\\ProyectoZOGLEY\\Models\\DetalleFactura.cs",
+              "RelativeDocumentMoniker": "ProyectoZOGLEY\\Models\\DetalleFactura.cs",
+              "ToolTip": "C:\\Users\\antonio\\Downloads\\Zogley_Proyecto_Final\\Zogley_Proyecto_Final\\Zogley_Proyecto_Final\\API\\ProyectoZOGLEY\\Models\\DetalleFactura.cs",
+              "RelativeToolTip": "ProyectoZOGLEY\\Models\\DetalleFactura.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-11T15:29:11.758Z",
+              "OwnerCaption": "%2"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Factura.cs",
+              "DocumentMoniker": "C:\\Users\\antonio\\Downloads\\Zogley_Proyecto_Final\\Zogley_Proyecto_Final\\Zogley_Proyecto_Final\\API\\ProyectoZOGLEY\\Models\\Factura.cs",
+              "RelativeDocumentMoniker": "ProyectoZOGLEY\\Models\\Factura.cs",
+              "ToolTip": "C:\\Users\\antonio\\Downloads\\Zogley_Proyecto_Final\\Zogley_Proyecto_Final\\Zogley_Proyecto_Final\\API\\ProyectoZOGLEY\\Models\\Factura.cs",
+              "RelativeToolTip": "ProyectoZOGLEY\\Models\\Factura.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAywAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-11T15:29:10.521Z",
+              "OwnerCaption": "%2"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "FacturasController.cs",
+              "DocumentMoniker": "C:\\Users\\antonio\\Downloads\\Zogley_Proyecto_Final\\Zogley_Proyecto_Final\\Zogley_Proyecto_Final\\API\\ProyectoZOGLEY\\Controllers\\FacturasController.cs",
+              "RelativeDocumentMoniker": "ProyectoZOGLEY\\Controllers\\FacturasController.cs",
+              "ToolTip": "C:\\Users\\antonio\\Downloads\\Zogley_Proyecto_Final\\Zogley_Proyecto_Final\\Zogley_Proyecto_Final\\API\\ProyectoZOGLEY\\Controllers\\FacturasController.cs",
+              "RelativeToolTip": "ProyectoZOGLEY\\Controllers\\FacturasController.cs",
+              "ViewState": "AgIAACIAAAAAAAAAAAAkwA4AAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-11T15:29:06.607Z",
+              "OwnerCaption": "%2"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "CrearFacturaRequest.cs",
+              "DocumentMoniker": "C:\\Users\\antonio\\Downloads\\Zogley_Proyecto_Final\\Zogley_Proyecto_Final\\Zogley_Proyecto_Final\\API\\ProyectoZOGLEY\\Models\\DTOS\\CrearFacturaRequest.cs",
+              "RelativeDocumentMoniker": "ProyectoZOGLEY\\Models\\DTOS\\CrearFacturaRequest.cs",
+              "ToolTip": "C:\\Users\\antonio\\Downloads\\Zogley_Proyecto_Final\\Zogley_Proyecto_Final\\Zogley_Proyecto_Final\\API\\ProyectoZOGLEY\\Models\\DTOS\\CrearFacturaRequest.cs",
+              "RelativeToolTip": "ProyectoZOGLEY\\Models\\DTOS\\CrearFacturaRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-11T15:28:56.883Z",
+              "OwnerCaption": "%2"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

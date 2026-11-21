@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inicia sesion - Zogley</title>
+
+    <!-- ESTILOS GLOBALES -->
+    <link rel="stylesheet" href="css/index/reset.css">
+    <link rel="stylesheet" href="css/index/tipografia.css">
+    <link rel="stylesheet" href="css/index/footer.css">
+    <link rel="stylesheet" href="css/index/overlay.css">
+
+    <!-- ESTILO DEL FORM LOGIN/REGISTRO -->
+    <link rel="stylesheet" href="css/registro-login/registro-login.css">
+</head>
+
+<body>
+
+    <!-- ================================
+            CONTENIDO PRINCIPAL
+    =================================== -->
+    <main>
+        
+        <!-- ========== FORMULARIO DE LOGIN ========== -->
+        <div id="form" class="formulario">
+
+            <a href="index.html" class="volver-inicio">← Volver al inicio</a>
+            <form id="loginForm" method="post">
+                <h1>Ingresa tus datos</h1>
+
+                <!-- Correo -->
+                <div class="campo">
+                    <input id="Useremail" type="text" autocomplete="UserEmail" required placeholder="Correo electrónico">
+                    <div class="error" style="color: red;"></div>
+                    <div id="error-email" style="color: red;"></div>
+
+                </div>
+
+                <!-- Contraseña -->
+                <div class="campo">
+                    <input id="password" type="password" autocomplete="password" required placeholder="Contraseña">
+                    <div class="error" style="color: red;"></div>
+                    <div id="error-contraseña" style="color: red;"></div>
+
+                </div>
+
+                <button id="iniciarSesion" type="submit">Iniciar Sesión</button>
+            </form>
+
+            <!-- Enlace a registro -->
+            <a href="signin.html" style="margin-top: 10px; color: black;">
+                ¿No tienes una cuenta? Regístrate
+            </a>
+        </div>
+
+        <!-- Imagen lateral -->
+        <img src="Recursos/imagenes/FondoimagenBackground.jpeg">
+
+    </main>
+
+
+    <!-- Contenedor (vacío, probablemente para dinamismo) -->
+    <div id="contenido-main"></div>
+
+
+    <!-- ================================
+                 FOOTER
+    =================================== -->
+    <footer>
+
+        <div class="footer">
+
+            <!-- Cuenta -->
+            <div class="footer-container">
+                <h3 style="color:#b8725e;">Cuenta</h3>
+                <ul>
+                    <li><a href>Iniciar Sesión</a></li>
+                    <li><a href>Registrarse</a></li>
+                    <li><a href>Canjear Tarjeta de Regalo</a></li>
+                </ul>
+            </div>
+
+            <!-- Compañía -->
+            <div class="footer-container">
+                <h3 style="color:#b8725e;">Compañía</h3>
+                <ul>
+                    <li><a href>Sobre Nosotros</a></li>
+                    <li><a href>Iniciativas Medioambientales</a></li>
+                    <li><a href>Empleos</a></li>
+                    <li><a href>Accesibilidad</a></li>
+                </ul>
+            </div>
+
+            <!-- Ayuda -->
+            <div class="footer-container">
+                <h3 style="color:#b8725e;">Ayuda</h3>
+                <ul>
+                    <li><a href>Centro de Ayuda</a></li>
+                    <li><a href>Realizar Devolución</a></li>
+                    <li><a href>Política de Devoluciones</a></li>
+                    <li><a href>Información de Envío</a></li>
+                </ul>
+            </div>
+
+            <!-- Redes sociales -->
+            <div class="footer-container">
+                <h3 style="color:#b8725e;">Conectar</h3>
+                <ul>
+                    <li><a href>Facebook</a></li>
+                    <li><a href>Instagram</a></li>
+                    <li><a href>Twitter</a></li>
+                    <li><a href>WhatsApp</a></li>
+                </ul>
+            </div>
+
+            <!-- Subscripción -->
+            <div class="footer-subscription">
+                <h3 style="color: #b8725e; font-weight: 400;">
+                    Recibe las últimas novedades
+                </h3>
+
+                <input type="email" placeholder="Ingresa tu correo electrónico">
+
+                <p style="font-weight: 400;">
+                    Al subscribirse, aceptas nuestras
+                    <a href>Política de Privacidad y Terminos de Servicio.</a>
+                </p>
+
+                <button type="submit">Suscribirse</button>
+            </div>
+
+        </div>
+
+        <!-- Políticas -->
+        <div class="politicaterminos">
+            <a href>Politica de Privacidad</a>
+            <a href>Terminos y Servicio</a>
+        </div>
+
+        <!-- Derechos reservados -->
+        <div style="text-align: center; color: #737373;">
+            © 2025 Todos los Derechos Reservados
+        </div>
+
+    </footer>
+
+    <!-- SCRIPT DE VALIDACIONES -->
+    <script src="js/scriptApi.js"></script>
+    <script src="js/scriptlogin.js"></script>
+
+</body>
+
+</html>

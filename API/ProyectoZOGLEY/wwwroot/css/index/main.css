@@ -1,0 +1,9 @@
+main {
+  display: none;
+  scroll-behavior: smooth;
+}
+
+main.activo {
+  display: block;
+}
+
